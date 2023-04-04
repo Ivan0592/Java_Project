@@ -3,7 +3,14 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-public class HW4 {static String input() {
+public class HW4 {
+//    Реализовать консольное приложение, которое:
+//    Принимает от пользователя строку вида text~num
+//    Нужно рассплитить строку по ~, сохранить text в связный список на позицию num.
+//    Если введено print~num, выводит строку из позиции num в связном списке.
+//    Если введено exit, завершаем программу
+
+    static String input() {
     String s = null;
     try {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
